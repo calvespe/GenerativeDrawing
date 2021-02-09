@@ -47,7 +47,7 @@ function setup() {
     background(22, 199, 222);
     fill(75, 130, 180);
     stroke(0, 0, 0, 0);
-    alert("Moving your mouse will change the size of the stroke, while left clicking will change the direction and color. In this piece, I've been looking at holding symmetry by having balls bounce at the same time symmetrically through the x and y axis through the center. Size of the stroke is changeable through movement of the mouse and color and direction are changable through a mouse click. ");
+    alert("This is the statement for the piece titled: Symmetrical Bouncing. Moving your mouse will change the size of the stroke, while left clicking will change the direction and color. In this piece, I've been looking at holding symmetry by having balls bounce at the same time symmetrically through the x and y axis through the center. Size of the stroke is changeable through movement of the mouse and color and direction are changable through a mouse click. ");
 }
   
 function draw() {
