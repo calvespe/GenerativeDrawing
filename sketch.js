@@ -1,9 +1,10 @@
+// This is the statement for the piece titled: Symmetrical Brush.
 // Moving your mouse will change the size of the stroke, while left clicking will change the 
-// direction and color.
+// direction and color. Size of the stroke is changeable through movement of the mouse and 
+// color and direction are changable through a mouse click. 
 // In this piece, I've been looking at holding symmetry by having balls bounce at the 
-// same time symmetrically through the x and y axis through the center. Size of the stroke
-// is changeable through movement of the mouse and color and direction are changable
-// through a mouse click. 
+// same time symmetrically through the x and y axis through the center. Interesting 
+// patterns can be made when moving the mouse, or leaving it to it's own devices. 
 
 let x = 0;
 let x1 = 0;
@@ -46,8 +47,8 @@ function setup() {
     y3 = windowHeight;
     background(22, 199, 222);
     fill(75, 130, 180);
-    stroke(0, 0, 0, 0);
-    alert("This is the statement for the piece titled: Symmetrical Brush. Moving your mouse will change the size of the stroke, while left clicking will change the direction and color. In this piece, I've been looking at holding symmetry by having balls bounce at the same time symmetrically through the x and y axis through the center. Size of the stroke is changeable through movement of the mouse and color and direction are changable through a mouse click. ");
+    stroke(37, 165, 217, 10);
+    alert("This is the statement for the piece titled: Symmetrical Brush. Moving your mouse will change the size of the stroke, while left clicking will change the direction and color. Size of the stroke is changeable through movement of the mouse and color and direction are changable through a mouse click. In this piece, I've been looking at holding symmetry by having balls bounce at the same time symmetrically through the x and y axis through the center. Interesting patterns can be made when moving the mouse, or leaving it to it's own devices. ");
 }
   
 function draw() {
@@ -62,17 +63,21 @@ function draw() {
         if (clicked == false) {
             if (color == false) {
                 fill(75, 130, 180);
+                stroke(37, 165, 217, 10);
                 color = true;
             } else {
                 fill(0, 191, 255);
+                stroke(37, 165, 217, 10);
                 color = false;
             }
         } else {
             if (color == false) {
                 fill(220, 20, 60)
+                stroke(237, 45, 30, 10);
                 color = true;
             } else {
                 fill(255, 69, 0);
+                stroke(237, 45, 30, 10);
                 color = false;
             }
         }
@@ -93,17 +98,21 @@ function draw() {
         if (clicked == false) {
             if (color == false) {
                 fill(75, 130, 180);
+                stroke(37, 165, 217, 10);
                 color = true;
             } else {
                 fill(0, 191, 255);
+                stroke(37, 165, 217, 10);
                 color = false;
             }
         } else {
             if (color == false) {
                 fill(220, 20, 60)
+                stroke(237, 45, 30, 10);
                 color = true;
             } else {
                 fill(255, 69, 0);
+                stroke(237, 45, 30, 10);
                 color = false;
             }
         }
